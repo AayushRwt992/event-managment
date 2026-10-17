@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --brand-dark: #0B0F19;
+  --brand-card: #111827;
+  --brand-border: #1F2937;
+  --brand-orange: #FF5722;
+  --brand-accent: #FF7043;
+}
+
+body {
+  background-color: var(--brand-dark) !important;
+  color: #F3F4F6;
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Custom class styles so design renders crisp & clean */
+.bg-brand-dark { background-color: #0B0F19; }
+.bg-brand-card { background-color: #111827; }
+.border-brand-border { border-color: #1F2937; }
+.bg-brand-orange { background-color: #FF5722; }
+.hover\:bg-brand-accent:hover { background-color: #FF7043; }
+.text-brand-orange { color: #FF5722; }
+.focus\:border-brand-orange:focus { border-color: #FF5722; }
